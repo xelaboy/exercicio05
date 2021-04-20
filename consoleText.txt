@@ -1,0 +1,244 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Exercicio-05-User03
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/xelaboy/exercicio05.git # timeout=10
+Fetching upstream changes from https://github.com/xelaboy/exercicio05.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/xelaboy/exercicio05.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ba9a07fba23b00b76f4efe859b82c917de859fef (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba9a07fba23b00b76f4efe859b82c917de859fef # timeout=10
+Commit message: "first commit"
+ > git rev-list --no-walk ba9a07fba23b00b76f4efe859b82c917de859fef # timeout=10
+[Exercicio-05-User03] $ /bin/sh -xe /tmp/jenkins11142166861972944335.sh
++ ./x2c.sh
++ ./somasal.sh
+2050.00
+2516.00
+1597.24
+3742.30
+1511.62
+294.00
+2633.66
+2238.68
+2400.00
+3174.86
+1666.66
+1250.00
+3436.05
+812.50
+4800.00
+3900.00
+2048.62
+1400.00
+2623.57
+1100.00
+234.00
+4950.13
+1847.24
+1747.24
+2554.60
+3000.00
+3762.10
+1100.00
+1148.62
+1100.00
+2066.73
+833.33
+2724.37
+1856.25
+1100.00
+1798.62
+4800.00
+1550.00
+1212.73
+1550.00
+3900.00
+1100.00
+1100.00
+1148.62
+2623.57
+1400.00
+2160.00
+1526.00
+1905.00
+3900.00
+1318.75
+5148.13
+1856.25
+1350.00
+4279.44
+1526.00
+234.00
+310.00
+1500.00
+1100.00
+2940.59
+2636.57
+1430.00
+5609.06
+1750.00
+4844.97
+2970.08
+2400.00
+1500.00
+1466.66
+2016.00
+2880.00
+4158.11
+4558.11
+2070.00
+1400.00
+1250.00
+4800.00
+3385.26
+1550.00
+1100.00
+360.00
+1100.00
+1550.00
+1148.62
+1500.00
+4633.32
+3900.00
+1959.69
+4700.00
+4596.09
+3174.86
+1550.00
+2500.00
+700.00
+1800.00
+2000.00
+1176.00
+2672.19
+1318.75
+2066.66
+2736.07
+1325.00
+2506.00
+1232.00
+1232.00
+2000.00
+3900.00
+4554.12
+2300.00
+1100.00
+1100.00
+1673.29
+2925.55
+3635.38
+3900.00
+2000.00
+3900.00
+3200.00
+10200.00
+2000.00
+1100.00
+1620.00
+637.24
+3014.63
+1100.00
+1550.00
+1148.62
+1548.62
+4158.11
+2898.70
+2852.07
+1550.00
+1100.00
+1750.00
+4551.95
+1148.62
+3332.43
+4800.00
+4356.12
+1250.00
+4039.31
+1800.00
+4078.91
+3960.11
+4791.54
+1100.00
+583.33
+4039.31
+1347.24
+1148.62
+1100.00
+1863.00
+1298.00
+2170.00
+3332.43
+1666.66
+2423.58
+1048.62
+1100.00
+1100.00
+4241.43
+2100.00
+1100.00
+4078.91
+4158.11
+3960.11
+2880.00
+1711.12
+1350.00
+1747.24
+2300.00
+1550.00
+2529.87
+1904.87
+2800.00
+2000.00
+3900.00
+1550.00
+1470.00
+4554.12
+1298.62
+1100.00
+1232.00
+1100.00
+3014.63
+1100.00
+4551.95
+1808.62
+2516.00
+1854.54
+1250.00
+2576.78
+1911.07
+2475.00
+3365.10
+4304.11
+1250.00
+3960.11
+2950.46
+1289.20
+2770.58
+3385.88
+1800.00
+1232.00
+2022.24
+1511.62
+1250.00
+2880.00
+1800.00
+2154.60
+2048.62
+1511.62
+1100.00
+
+Soma de todos os salarios = 495777.38
+
+Archiving artifacts
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: SUCCESS
+
